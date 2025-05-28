@@ -28,7 +28,9 @@ export const MyCampaignCard: React.FC<MyCampaignCardProps> = ({ contractAddress 
         params: [] 
       });
       
-      const truncatedDescription = description?.length > 100 ? `${description.slice(0, 250)}...` : description;
+      const truncatedDescription = (campaignDescription || '').length > 100
+      ? `${(campaignDescription || '').slice(0, 250)}...`
+      : campaignDescription || '';
 
     return (
             <div className="flex flex-col justify-between max-w-sm p-6 bg-white border border-slate-200 rounded-lg shadow">
