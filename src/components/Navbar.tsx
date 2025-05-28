@@ -29,7 +29,7 @@ const Navbar = () => {
                             <Link
                                     href={'/'}
                             >
-                            <span className=" text-4xl -ml-3 font-bold ">D'app Raiser</span>
+                            <span className=" text-4xl -ml-3 font-bold ">D&apos;app Raiser</span>
                             </Link>
                         </div>
                         
