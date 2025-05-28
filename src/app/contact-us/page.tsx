@@ -47,7 +47,7 @@ export default function ContactPage() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.2, duration: 0.5 }}
         >
-          We'd love to hear from you! Whether it's a question about crowdfunding, a suggestion, or just to say hello—reach out to us through the form below.
+          We&apos;re love to hear from you! Whether it is a question about crowdfunding, a suggestion, or just to say hello—reach out to us through the form below.
         </motion.p>
 
         <motion.form
