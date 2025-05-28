@@ -67,7 +67,7 @@ const Navbar = () => {
               />
               <Link href={"/"}>
                 <span className="text-4xl -ml-3 font-bold cursor-pointer">
-                  D'app Raiser
+                  D&apos;app Raiser
                 </span>
               </Link>
             </div>
