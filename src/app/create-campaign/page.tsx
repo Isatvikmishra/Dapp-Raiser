@@ -29,13 +29,13 @@ export default function CreateCampaignPage() {
         chain: polygonAmoy,
         account: account,
         contractId: "Crowdfunding",
-        contractParams: [
+        contractParams: {
           name: campaignName,
           description: campaignDescription,
           goal: (campaignGoal * 1e18).toString(),
           deadline: campaignDeadline.toString(),
           owner: account.address,
-        ],
+        },
         publisher: "0x02CB6b0a25FC8cE931626f11f623e9BE0C3398e6",
         version: "1.0.0",
       });
