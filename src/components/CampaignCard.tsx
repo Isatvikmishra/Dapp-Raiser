@@ -53,9 +53,9 @@ export const CampaignCard: React.FC<CampaignCardProps> = ({ campaignAddress }) =
         balancePercentage = 100;
     }
 
-   const truncatedDescription = (description || '').length > 100
-  ? `${(description || '').slice(0, 250)}...`
-  : description || '';
+  const truncatedDescription = (campaignDescription || '').length > 100
+  ? `${(campaignDescription || '').slice(0, 250)}...`
+  : campaignDescription || '';
 
     
     return (
