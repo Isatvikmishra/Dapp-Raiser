@@ -31,9 +31,9 @@ const Footer = () => {
         </div>
 
         {/* Fundraise */}
-        <div className="flex-1">
-          <h4 className="font-bold mb-2">FUNDRAISE</h4>
-          <ul className="space-y-1 text-sm">
+        <div className="flex-1 pt-6">
+          <h4 className="font-bold mb-2 text-xl ">FUNDRAISE</h4>
+          <ul className="space-y-1 text-md">
             <Link href={"/all-campaign"}>
               <li>Browse Fundraisers</li>
             </Link>
@@ -45,9 +45,9 @@ const Footer = () => {
         </div>
 
         {/* About */}
-        <div className="flex-1">
-          <h4 className="font-bold mb-2">ABOUT US</h4>
-          <ul className="space-y-1 text-sm">
+        <div className="flex-1 pt-6">
+          <h4 className="font-bold text-xl mb-2">ABOUT US</h4>
+          <ul className="space-y-1 text-md">
             <Link href={"/our-story"}>
               <li>Our Story</li>
             </Link>
@@ -63,7 +63,7 @@ const Footer = () => {
         </div>
 
         {/* WhatsApp and Socials */}
-        <div className="flex-1">
+        <div className="flex-1 pt-6">
           <h4 className="font-bold mb-3">Reach out to us</h4>
           <a
             href="#"
