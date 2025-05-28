@@ -34,7 +34,7 @@ const HeroSection: React.FC = () => {
           </div>
 
           <p className="text-gray-700 text-md">
-            Dapp Raiser's <span className="font-semibold">0% Platform fees*</span> ensures maximum funds for you
+            Dapp Raiser <span className="font-semibold">0% Platform fees*</span> ensures maximum funds for you
           </p>
 
           <div className="flex flex-col md:flex-row items-center  gap-4">
