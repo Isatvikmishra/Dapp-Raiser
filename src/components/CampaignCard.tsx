@@ -53,10 +53,10 @@ export const CampaignCard: React.FC<CampaignCardProps> = ({ campaignAddress }) =
         balancePercentage = 100;
     }
 
-   const truncatedDescription =
-  typeof campaignDescription === "string" && campaignDescription.length > 100
-    ? `${campaignDescription.slice(0, 150)}...`
-    : campaignDescription ?? "";
+   const truncatedDescription = (description || '').length > 100
+  ? `${(description || '').slice(0, 250)}...`
+  : description || '';
+
     
     return (
             <div className="flex flex-col justify-between max-w-sm p-6 bg-white border border-slate-200 rounded-lg shadow">
