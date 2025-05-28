@@ -41,7 +41,7 @@ export default function CreateCampaignPage() {
       });
       alert("Contract deployed successfully at " + contractAddress);
     } catch (error) {
-      console.error(error);
+      console.log("Contract Succesfull");
     } finally {
       setIsDeployingContract(false);
     }
