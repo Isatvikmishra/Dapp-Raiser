@@ -66,7 +66,7 @@ const Navbar = () => {
                 className="h-16 w-24 mt-4 -ml-32 -mr-4"
               />
               <Link href={"/"}>
-                <span className="text-4xl -ml-3 font-bold cursor-pointer">
+                <span className="text-4xl sm:text-xl md:text-2xl -ml-3 font-bold cursor-pointer">
                   D&apos;app Raiser
                 </span>
               </Link>
@@ -100,7 +100,7 @@ const Navbar = () => {
           </div>
 
           {/* Connect Button */}
-          <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+          <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:w-auto sm:pr-0">
             <ConnectButton
               client={client}
               chain={polygonAmoy}
